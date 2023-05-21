@@ -1,0 +1,18 @@
+{
+	"ps":[
+		{"id":"CAN","lat":11.99,"lng":109.21},
+		{"id":"SIN","lat":1.3545,"lng":103.98},
+		{"id":"CGK","lat":6.127,"lng":106.65},
+		{"id":"KIX","lat":34.43,"lng":135.23},
+		{"id":"HNL","lat":21.31,"lng":157.92},
+		{"id":"PEN","lat":5.296,"lng":100.275}
+	],
+
+	"ln":[
+		{"source":"CAN","target":"SIN","volume":200},
+		{"source":"PEN","target":"SIN","volume":20},
+		{"source":"SIN","target":"KIX","volume":300},
+		{"source":"KIX","target":"HNL","volume":400},
+		{"source":"CGK","target":"SIN","volume":50}
+	]
+}
